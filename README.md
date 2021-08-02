@@ -8,6 +8,7 @@
 ***SYED MOHIUDDIN ZIA***
 ***0092 307 2099300***
 
+
 # REQUIREMENTS
 
 **1. GITHUB**  
@@ -61,21 +62,26 @@ pip3 install -r requirements.txt
 git-clone https://github.com/syedmohiuddinzia/MechanicsSolid2.git  
 ```
 
-**2. GET ACCESS TO THE DIRECTORY ImgDload-PFA**  
+**2. GET ACCESS TO THE DIRECTORY MechanicsSolids2**  
 ```
-cd ImgDload-PFA  
-```
-
-**3. OPEN MechanicsSolid2CEP.py**  
-```
-sudo nano MechanicsSolid2CEP.py  
+cd MechanicsSolids2  
 ```
 
-*Using this python code computation can be done to
-i. find the principal stresses for the given state of stress.
-ii. find absolute maximum shear stress for the given state of stress.
-iii. find octahedral shear stress for the given state of stress.
-iv. find the strain tensor from given state of stress.
-v. find the principal strains for the given state of stress.
-vi. draw Mohr’s circle of stress and strains.
-*  
+**3. OPEN MechanicsSolids2CEP.py**  
+```
+sudo nano MechanicsSolids2CEP.py  
+```
+
+*Using this python code computation can be done to:*
+
+*i. find the principal stresses for the given state of stress.*
+
+*ii. find absolute maximum shear stress for the given state of stress.*
+
+*iii. find octahedral shear stress for the given state of stress.*
+
+*iv. find the strain tensor from given state of stress.*
+
+*v. find the principal strains for the given state of stress.*
+
+*vi. draw Mohr’s circle of stress and strains.*  
