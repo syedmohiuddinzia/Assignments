@@ -85,3 +85,7 @@ sudo nano MechanicsSolids2CEP.py
 *v. find the principal strains for the given state of stress.*
 
 *vi. draw Mohr’s circle of stress and strains.*  
+
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
