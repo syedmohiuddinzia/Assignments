@@ -1,9 +1,12 @@
-***___ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم
-***___ PRAY FOR PAlESTINE 🇵🇸.
-***____ PYTHON CODE BY:***  
-***SYED MOHIUDDIN ZIA***  
-***___ 0092 307 2099300***
-***___ Pakistani 🇵🇰 ***
+***________________________________ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم***
+
+***_____________________________ PRAY FOR PALESTINE 🇵🇸***
+
+***______________________________ PAKISTAN ZINDABAD 🇵🇰***
+
+***PYTHON CODE BY:***
+***SYED MOHIUDDIN ZIA***
+***0092 307 2099300***
 
 # REQUIREMENTS
 
@@ -28,6 +31,24 @@ sudo apt install python3-pip
 ```
 pip3 --version
 ```
+**3. ANACONDA**
+
+*In your browser, download the Anaconda installer for Linux.*
+```
+https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+```
+*To use GUI packages with Linux, you will need to install the following extended dependencies for Qt:*
+```
+apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+```
+*Enter the following to install Anaconda for Python 3.7:*
+```
+bash ~/Downloads/Anaconda3-xxxx.xx-Linux-x86_64.sh
+```
+*Enter the following to install Anaconda for Python 2.7:*
+```
+bash ~/Downloads/Anaconda2-xxxx.xx-Linux-x86_64.sh
+```
 **4. LIBRARIES**
 ```
 pip3 install -r requirements.txt
@@ -45,27 +66,16 @@ git-clone https://github.com/syedmohiuddinzia/MechanicsSolid2.git
 cd ImgDload-PFA  
 ```
 
-**3. OPEN main.sh**  
+**3. OPEN MechanicsSolid2CEP.py**  
 ```
-sudo nano main.sh  
-```
-
-**4. EDIT {SUBS, WEBSITE, IRANGE} FIELDS BY ENTERING**  
-*"gallery name" in SUBS*  
-*"website name" in WEBSITE*  
-*"total pages of gallery" in IRANGE*  
-
-**5. SAVE main.sh**  
-Ctrl + S  
-
-**6. CLOSE main.sh**  
-Ctrl + X  
-
-**7. RUN main.sh**  
-```
-bash main.sh  
+sudo nano MechanicsSolid2CEP.py  
 ```
 
-*ALL FULL RESOLUTION IMAGES PRESENT IN THE SPECIFIC GALLERY WILL  
-BE DOWNLOADED AUTOMATICALLY AND WILL BE PLACED IN THE DIRECTORY  
-NAMED SIMILAR TO GALLERY.*  
+*Using this python code computation can be done to
+i. find the principal stresses for the given state of stress.
+ii. find absolute maximum shear stress for the given state of stress.
+iii. find octahedral shear stress for the given state of stress.
+iv. find the strain tensor from given state of stress.
+v. find the principal strains for the given state of stress.
+vi. draw Mohr’s circle of stress and strains.
+*  
