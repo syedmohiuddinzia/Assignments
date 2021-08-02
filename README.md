@@ -1,2 +1,1 @@
 # Paid Assignments
-CEP-Assignments
