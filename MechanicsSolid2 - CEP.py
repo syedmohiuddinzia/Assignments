@@ -1,15 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
 
 # Programming done by @SyedMohiuddinZia:
 # Name: SYED MOHIUDDIN ZIA,  Mobile: 0092 307 2099300
 # Nationality: Pakistan,     Birth: January 15 1996
-
-
-# In[44]:
 
 
 # A. Develop a program in any convenient programming language or computational environment
@@ -34,8 +29,6 @@ S = np.array([ [S_xx, S_xy, S_zx],
                [S_zx, S_yz, S_zz] ])
 
 
-# In[45]:
-
 
 # i. find the principal stresses for the given state of stress.
 
@@ -45,8 +38,6 @@ print("The principal stresses for the given state of stress are:")
 print(S_val)
 
 
-# In[46]:
-
 
 # ii. find absolute maximum shear stress for the given state of stress.
 
@@ -54,8 +45,6 @@ print("The maximum shear stress for the given state of stress is:")
 tau = abs((S1-S3)/2)
 print(tau)
 
-
-# In[47]:
 
 
 # iii. find octahedral shear stress for the given state of stress.
@@ -66,8 +55,6 @@ print("The octahedral shear stress for the given state of stress is:")
 
 print(octa)
 
-
-# In[48]:
 
 
 ## iv. find the strain tensor from given state of stress.
@@ -96,8 +83,6 @@ print("The strain tensor for the given state of stress is:")
 print(E)
 
 
-# In[49]:
-
 
 # v. find the principal strains for the given state of stress.
 
@@ -106,8 +91,6 @@ E3, E2, E1 = np.sort(E_val)
 print("The principal strains for the given state of stress are:")
 print(E_val)
 
-
-# In[50]:
 
 
 # vi. draw Mohr’s circle of stress and strains.
@@ -154,8 +137,6 @@ plot_stress_mohr3d(S)
 plt.show()
 
 
-# In[51]:
-
 
 ### >> Mohr’s circle for strains
 
@@ -197,14 +178,6 @@ plot_strain_mohr3d(E)
 plt.show()
 
 
-# In[ ]:
-
-
-
-
-
-# In[52]:
-
 
 # B. Modify the program developed in Problem # 1 so that it can be
 # used to determine that the material has yielded or not according to 
@@ -236,10 +209,4 @@ if ((S1*S1)+(S2*S2)+(S3*S3)-(S1*S2)-(S2*S3)-(S1*S3) >= (Y*Y)):
 else:
     {print("material NOT yielded, according to maximum distortion energy theory")}
 print("-----------------------------------------------------------------------")
-
-
-# In[ ]:
-
-
-
 
