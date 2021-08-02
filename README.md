@@ -87,5 +87,4 @@ sudo nano MechanicsSolids2CEP.py
 *vi. draw Mohr’s circle of stress and strains.*  
 
 
-![GitHub Logo](/images/logo.png)
-Format: ![Alt Text](url)
+![Question Paper](https://github.com/syedmohiuddinzia/MechanicsSolids2/blob/main/MechanicsSolids2%20-%20CEP.jpg)
